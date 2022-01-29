@@ -1,0 +1,25 @@
+{
+  "name": "ts-ftw",
+  "version": "1.0.0",
+  "description": "Typescript for the win",
+  "main": "app.ts",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "format": "prettier 'src/**/*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manganellidev/ts-ftw.git"
+  },
+  "author": "manganellidev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manganellidev/ts-ftw/issues"
+  },
+  "homepage": "https://github.com/manganellidev/ts-ftw#readme",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^17.0.13",
+    "prettier": "^2.5.1"
+  }
+}
